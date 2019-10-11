@@ -1,2 +1,2 @@
 # pyeval
-Evaluates python mathematical (arithmetic and logical) expressions 
+Evaluates mathematical (arithmetic and logical) expressions in python
