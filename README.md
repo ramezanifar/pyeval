@@ -20,7 +20,7 @@ Comparisions:
 (> )  : GT    example : 1>2  as GT(1,2)  
 (>=) : GE    example : 1>=2 as GE(1,2)  
 (< ) : LT    example : 1<2  as LT(1,2)  
-(<=) : LT    example : 1<=2 as LE(1,2)  
+(<=) : LE    example : 1<=2 as LE(1,2)  
 (==) : EQ    example : 1==2 as EQ(1,2)  
 (!=) : NE    example : 1!=2 as NE(1,2)  
 
