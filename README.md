@@ -1,5 +1,5 @@
-# pyeval
-Evaluates mathematical (arithmetic and logical) expressions in python.   
+# pyfeval
+It stands for python fast evaluator. It evaluates mathematical (arithmetic and logical) expressions in python.   
 I needed to evaluate mathematical expressions in python but very fast. There are many python libraries that evaluate a string but they take few miliseconds to calculate the result. For my use case, few miliseconds was detrimental.   
 Untill I found this thread:  
 https://stackoverflow.com/questions/15884727/recursive-boolean-evaluation  
@@ -34,13 +34,17 @@ sine (argument in raidian): SIN    example : SIN(0)
 sine (argument in degree): SIND    example : SIND(30)  
 cosine (argument in raidian): COS    example : COS(0)  
 cosine (argument in degree): COSD    example : COSD(30)  
+Tangent (argument in raidian): TAN    example : TAN(0)  
+Tangent (argument in degree): TAND    example : TAND(30)  
 
 Generic:
 Absoulte vlaue: ABS    example : ABS(-10)
 Square root: SQRT    example : SQRT(4)
 
-# Error handing
+### Error handing
 The following errors are detected:
+
 1- Devision by zero
+
 2- Square root with negative argument
 
