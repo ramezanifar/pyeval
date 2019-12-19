@@ -28,3 +28,19 @@ Boolean operations:
 & : AND    example : b1 & b2 as AND(b1,b2)  
 | : OR     example : b1 | b2 as OR(b1,b2)  
 ! : NOT    example : !b      as NOT(b)  
+
+Trigonometry:  
+sine (argument in raidian): SIN    example : SIN(0)  
+sine (argument in degree): SIND    example : SIND(30)  
+cosine (argument in raidian): COS    example : COS(0)  
+cosine (argument in degree): COSD    example : COSD(30)  
+
+Generic:
+Absoulte vlaue: ABS    example : ABS(-10)
+Square root: SQRT    example : SQRT(4)
+
+# Error handing
+The following errors are detected:
+1- Devision by zero
+2- Square root with negative argument
+
